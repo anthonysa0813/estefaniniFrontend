@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --color-purple: #646cff;
+}
+
+a {
+  font-weight: 500;
+
+  text-decoration: inherit;
+}
+
+.active {
+  color: var(--color-purple);
+  border-bottom: 2px solid;
+  transition: all 0.5s;
+}
+a:hover {
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.debug {
+  border: 3px solid brown;
+}
+
+.btn {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-warning {
+  background-color: rgba(232, 232, 69, 0.701);
+  color: white;
+}
+.btn-warning:hover {
+  background-color: rgba(232, 232, 69, 0.901);
+}
+.btn-danger {
+  background-color: rgb(247, 84, 84, 0.5);
+  color: white;
+}
+.btn-danger:hover {
+  background-color: rgb(247, 84, 84, 0.8);
+}
+
+.text-center {
+  text-align: center;
+}
